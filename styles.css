@@ -8,9 +8,8 @@
 }
 .canvas{
 	display: grid;
-	height: 800px;
-	width: 800px;
-	gap: 2px;
+	height: 600px;
+	width: 600px;
 	justify-content: center;
 	grid-template-columns: repeat(var(--gridsize), 1fr);
 }
@@ -18,7 +17,6 @@
 	width: auto;
 	height: auto;
 	background: Cornsilk;
-	border-radius: 1px;
 }
 .sidebar{
 	flex: 1;
@@ -26,4 +24,16 @@
 .draw{
 	background: black;
 }
-
+.title{
+	font-size: 72px;
+	text-align: center;
+}
+button{
+	background: white;
+	padding: 10px;
+	height: 60px;
+}
+.sidebar{
+	display: flex;
+	justify-content: center;
+}
